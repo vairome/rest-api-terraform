@@ -20,6 +20,7 @@ It is a REST API to store tasks through 3 fields, id, task and done, which is a 
 All HTTP requests work through a lambda, there is a lambda for each type of request, get, post, put and delete, in the same way there are 4 endpoints for each type of HTTP request.
 
 Additionally, they have an X-Ray trace configured that points to a group of CloudWatch logs.
+
 ## How to use this API
 
 ### Link to the API Gateway
@@ -32,7 +33,7 @@ There is a link to a Postman Collection to interact with the api
 
 https://www.getpostman.com/collections/3766cbb31024d770d910
 
-### How to deploy this infrastructure in your own AWS account
+## How to deploy this infrastructure in your own AWS account
 
 Clone the repo, and have installed the AWS CLI and Terraform in your local machine, also have configure your AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY with the privileges to deploy all the resources, then change the name of the profile and aws id account in the main.tf
 
