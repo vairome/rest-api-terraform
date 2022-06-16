@@ -4,7 +4,8 @@ REST API deployed in AWS using services such as Lambda, API Gateway, DynamoDB, c
 
 The API is built with Node.js and is an API for task control, in which records can be consulted, added, modified and deleted through HTTP queries.
 
-![Serverless](https://4sysops.com/wp-content/uploads/2022/03/Serverless-computing-with-AWS-Lambda.png)
+![Serverless](/Sls_architecture.png?raw=true "Serverless architecture")
+
 
 ## 🚀 Quick reference
 
