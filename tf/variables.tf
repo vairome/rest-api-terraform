@@ -13,11 +13,6 @@ variable "aws_profile" {
   default = "default"
 }
 
-variable "aws_account_id" {
-  type    = string
-  default = "950172561117"
-}
-
 variable "service_name" {
   type    = string
   default = "todos"
